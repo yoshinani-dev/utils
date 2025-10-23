@@ -1,9 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "extends": ["@yoshinani/style-guide/biome"],
-  "vcs": {
-    "enabled": true,
-    "clientKind": "git",
-    "useIgnoreFile": true
+  "files": {
+    "includes": ["**", "!**/.next", "!**/.turbo"]
   }
 }
