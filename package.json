@@ -26,6 +26,8 @@
     "release": "changeset publish",
     "check": "biome check .",
     "check:fix": "biome check --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "test": "vitest",
     "tsc": "tsc --noEmit"
   },
@@ -45,6 +47,8 @@
     "@biomejs/biome": "^2.1.2",
     "@changesets/cli": "^2.29.5",
     "@types/node": "^22.10.7",
+    "@yoshinani/style-guide": "^0.14.3",
+    "eslint": "^9.17.0",
     "husky": "^9.1.7",
     "tsup": "^8.4.0",
     "typescript": "^5.7.3",

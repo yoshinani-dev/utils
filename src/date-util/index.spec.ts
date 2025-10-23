@@ -1,4 +1,4 @@
-import { formatDateToYYYYMMDD, formatTimeToHHmm } from "./index"
+import { formatDateToYYYYMMDD, formatTimeToHHmm } from "./index.js"
 
 describe("formatTimeToHHmm", () => {
   it("時刻をHH:mm形式でフォーマットする", () => {
