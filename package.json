@@ -1,0 +1,53 @@
+{
+  "name": "@yoshinani/utils",
+  "version": "0.1.0",
+  "description": "YOSHINANI's Utility Functions Collection",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22",
+    "pnpm": "10"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/yoshinani-dev/utils#readme",
+  "bugs": {
+    "url": "https://github.com/yoshinani-dev/utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshinani-dev/utils.git"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "build": "tsup --clean",
+    "dev": "tsup --watch",
+    "release": "changeset publish",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "test": "vitest",
+    "tsc": "tsc --noEmit"
+  },
+  "exports": {
+    "./date-util": {
+      "types": "./dist/date-util/index.d.ts",
+      "default": "./dist/date-util/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2",
+    "@changesets/cli": "^2.29.5",
+    "@types/node": "^22.10.7",
+    "husky": "^9.1.7",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}
