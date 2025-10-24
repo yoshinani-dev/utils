@@ -1,5 +1,11 @@
 # @yoshinani/utils
 
+## 0.1.2
+
+### Patch Changes
+
+- 9530fbb: file-utils を追加
+
 ## 0.1.1
 
 ### Patch Changes
