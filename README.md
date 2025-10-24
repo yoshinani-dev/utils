@@ -44,6 +44,45 @@ const dateTime = formatDateToYYYYMMDD_HHmm(new Date()) // "2025年08月14日 14:
 - `formatDateToYYYYMMDD(date: Date): string` - 日付をyyyyMMdd形式でフォーマット
 - `formatDateToYYYYMMDD_HHmm(date: Date): string` - 日付と時刻をyyyy年MM月dd日 HH:mm形式でフォーマット
 
+### String Utils
+
+文字列操作に関するユーティリティ関数群です。
+
+```typescript
+import { toFullWidth, encodeUrl } from "@yoshinani/utils/string-util"
+
+// 半角文字列を全角に変換
+const fullWidth = toFullWidth("ABC123") // "ＡＢＣ１２３"
+
+// 文字列をUTF-8でURLエンコード
+const encoded = encodeUrl("こんにちは(世界)!") // "%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF%28%E4%B8%96%E7%95%8C%29%21"
+```
+
+#### 利用可能な関数
+
+- `toFullWidth(str: string): string` - 半角文字列を全角に変換
+- `encodeUrl(str: string): string` - 文字列をUTF-8でURLエンコード（`!`, `(`, `)` も含む）
+
+### File Utils
+
+ファイル操作に関するユーティリティ関数群です。
+
+```typescript
+import { getFileExtension } from "@yoshinani/utils/file-util"
+
+// ファイルから拡張子を取得
+const file = new File([""], "example.txt")
+const extension = getFileExtension(file) // "txt"
+
+// 拡張子がない場合はTaggedErrorを返す
+const invalidFile = new File([""], "example")
+const result = getFileExtension(invalidFile) // TaggedError<"INVALID_FILE_EXTENSION">
+```
+
+#### 利用可能な関数
+
+- `getFileExtension(file: File): string | TaggedError<"INVALID_FILE_EXTENSION">` - ファイルから拡張子を取得
+
 ## 開発
 
 ### ビルド
