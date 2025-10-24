@@ -1,5 +1,11 @@
 # @yoshinani/utils
 
+## 0.2.0
+
+### Minor Changes
+
+- ad93e31: インポートできない問題を修正し末尾の-util を削除
+
 ## 0.1.5
 
 ### Patch Changes
