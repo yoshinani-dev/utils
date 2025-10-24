@@ -35,12 +35,17 @@
     "./date-util": {
       "types": "./dist/date-util/index.d.ts",
       "default": "./dist/date-util/index.js"
+    },
+    "./file-util": {
+      "types": "./dist/file-util/index.d.ts",
+      "default": "./dist/file-util/index.js"
     }
   },
   "files": [
     "dist"
   ],
   "dependencies": {
+    "@nakanoaas/tagged-error": "^1.0.0",
     "date-fns": "^4.1.0"
   },
   "devDependencies": {
