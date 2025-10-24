@@ -3,5 +3,8 @@
   "extends": ["@yoshinani/style-guide/biome"],
   "files": {
     "includes": ["**", "!**/.next", "!**/.turbo"]
+  },
+  "assist": {
+    "enabled": true
   }
 }

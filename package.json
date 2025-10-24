@@ -4,6 +4,7 @@
   "description": "YOSHINANI's Utility Functions Collection",
   "license": "MIT",
   "type": "module",
+  "sideEffects": false,
   "engines": {
     "node": ">=22",
     "pnpm": "10"
@@ -21,13 +22,13 @@
   },
   "scripts": {
     "prepare": "husky",
-    "build": "tsup --clean",
-    "dev": "tsup --watch",
+    "build": "tsdown --clean",
+    "dev": "tsdown --watch",
     "release": "changeset publish",
-    "check": "biome check .",
-    "check:fix": "biome check --write .",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
+    "check": "pnpm run lint && biome check .",
+    "check:fix": "pnpm run lint:fix && biome check --write .",
+    "lint": "eslint --max-warnings 0 .",
+    "lint:fix": "eslint --fix --max-warnings 0 .",
     "test": "vitest",
     "tsc": "tsc --noEmit"
   },
@@ -59,7 +60,7 @@
     "@yoshinani/style-guide": "^0.14.3",
     "eslint": "^9.17.0",
     "husky": "^9.1.7",
-    "tsup": "^8.4.0",
+    "tsdown": "^0.15.9",
     "typescript": "^5.7.3",
     "vitest": "^3.0.7"
   }

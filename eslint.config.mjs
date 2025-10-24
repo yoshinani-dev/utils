@@ -8,6 +8,7 @@ const eslintConfig = [
   {
     rules: {
       "import/order": "off",
+      "sort-imports": "off",
     },
   },
 ]
