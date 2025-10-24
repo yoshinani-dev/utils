@@ -1,5 +1,11 @@
 # @yoshinani/utils
 
+## 0.1.5
+
+### Patch Changes
+
+- 8155d83: tsup から tsdown に移行し細かい調整を実施
+
 ## 0.1.4
 
 ### Patch Changes
