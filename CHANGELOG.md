@@ -1,5 +1,11 @@
 # @yoshinani/utils
 
+## 0.2.1
+
+### Patch Changes
+
+- f24e83c: vitest を v4 に上げ ci でテストを実行
+
 ## 0.2.0
 
 ### Minor Changes
