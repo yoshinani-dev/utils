@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "dictionaries": ["yoshinani"],
+  "dictionaryDefinitions": [
+    {
+      "name": "yoshinani",
+      "path": "../node_modules/@yoshinani/style-guide/cspell/words.txt",
+      "addWords": false
+    }
+  ]
+}
