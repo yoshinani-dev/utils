@@ -22,7 +22,7 @@
   },
   "scripts": {
     "prepare": "husky",
-    "build": "tsdown --clean",
+    "build": "tsdown",
     "dev": "tsdown --watch",
     "release": "changeset publish",
     "check": "pnpm run lint && biome check .",
@@ -33,18 +33,10 @@
     "tsc": "tsc --noEmit"
   },
   "exports": {
-    "./date-util": {
-      "types": "./dist/date-util/index.d.ts",
-      "default": "./dist/date-util/index.js"
-    },
-    "./file-util": {
-      "types": "./dist/file-util/index.d.ts",
-      "default": "./dist/file-util/index.js"
-    },
-    "./string-util": {
-      "types": "./dist/string-util/index.d.ts",
-      "default": "./dist/string-util/index.js"
-    }
+    "./date": "./dist/date/index.js",
+    "./file": "./dist/file/index.js",
+    "./string": "./dist/string/index.js",
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
