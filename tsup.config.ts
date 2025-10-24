@@ -4,6 +4,7 @@ export default defineConfig({
   entry: {
     "date-util/index": "src/date-util/index.ts",
     "file-util/index": "src/file-util/index.ts",
+    "string-util/index": "src/string-util/index.ts",
   },
   format: "esm",
   target: "es2022",

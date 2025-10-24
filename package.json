@@ -39,6 +39,10 @@
     "./file-util": {
       "types": "./dist/file-util/index.d.ts",
       "default": "./dist/file-util/index.js"
+    },
+    "./string-util": {
+      "types": "./dist/string-util/index.d.ts",
+      "default": "./dist/string-util/index.js"
     }
   },
   "files": [
