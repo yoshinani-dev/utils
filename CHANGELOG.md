@@ -1,5 +1,11 @@
 # @yoshinani/utils
 
+## 0.1.4
+
+### Patch Changes
+
+- f59b6c4: README の更新
+
 ## 0.1.3
 
 ### Patch Changes
