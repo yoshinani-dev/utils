@@ -1,5 +1,11 @@
 # @yoshinani/utils
 
+## 0.3.0
+
+### Minor Changes
+
+- 8368d2a: autoId を追加
+
 ## 0.2.1
 
 ### Patch Changes
