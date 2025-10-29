@@ -33,6 +33,7 @@
     "tsc": "tsc --noEmit"
   },
   "exports": {
+    "./auto-id": "./dist/auto-id/index.js",
     "./date": "./dist/date/index.js",
     "./file": "./dist/file/index.js",
     "./string": "./dist/string/index.js",
