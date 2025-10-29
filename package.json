@@ -49,7 +49,7 @@
     "@biomejs/biome": "^2.1.2",
     "@changesets/cli": "^2.29.5",
     "@types/node": "^22.10.7",
-    "@yoshinani/style-guide": "^0.14.3",
+    "@yoshinani/style-guide": "^0.15.0",
     "eslint": "^9.17.0",
     "husky": "^9.1.7",
     "tsdown": "^0.15.9",
