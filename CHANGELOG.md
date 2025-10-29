@@ -1,5 +1,14 @@
 # @yoshinani/utils
 
+## 0.2.1
+
+### Patch Changes
+
+- f24e83c: vitest を v4 に上げ ci でテストを実行
+- 83a77e1: changesets をアップデート
+- 504cd21: erasableSyntaxOnly を有効化
+- 63a515a: chore(deps-dev): bump the dev-dependencies group across 1 directory with 5 updates
+
 ## 0.2.0
 
 ### Minor Changes
