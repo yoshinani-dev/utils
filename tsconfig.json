@@ -3,7 +3,8 @@
   "extends": "@yoshinani/style-guide/typescript",
   "compilerOptions": {
     "noEmit": true,
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "erasableSyntaxOnly": true
   },
   "include": ["src/**/*", "*.ts", "*.mjs"],
   "exclude": ["node_modules", "dist"]
