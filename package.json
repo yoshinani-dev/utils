@@ -53,7 +53,7 @@
     "@yoshinani/style-guide": "^0.15.0",
     "eslint": "^9.17.0",
     "husky": "^9.1.7",
-    "tsdown": "^0.16.1",
+    "tsdown": "^0.17.0",
     "typescript": "^5.7.3",
     "vitest": "^4.0.2"
   }
