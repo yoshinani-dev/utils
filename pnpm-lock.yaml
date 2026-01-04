@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@nakanoaas/tagged-error':
         specifier: ^1.0.0
-        version: 1.0.1
+        version: 1.0.2
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -512,8 +512,8 @@ packages:
   '@manypkg/get-packages@1.1.3':
     resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
 
-  '@nakanoaas/tagged-error@1.0.1':
-    resolution: {integrity: sha512-laeZhz8X03mbp8W5/lMMdQhsBlA65/anEYPJtBWflC1zvMsWsuazRnkIUNADlD83HI9DzFpRNi+Q9hyfStzoag==}
+  '@nakanoaas/tagged-error@1.0.2':
+    resolution: {integrity: sha512-swC8m/xOLEWHTzPE1Zl0SiipbGzrxWTItMCC8YReHr4DNswswAL5en1r4yb6qi81//fQF75u/1WxQurx9UDmvw==}
 
   '@napi-rs/wasm-runtime@0.2.12':
     resolution: {integrity: sha512-ZVWUcfwY4E/yPitQJl481FjFo3K22D6qF0DuFH6Y/nbnE11GY5uguDxZMGXPQ8WQ0128MXQD7TnfHyK4oWoIJQ==}
@@ -3209,7 +3209,7 @@ snapshots:
       globby: 11.1.0
       read-yaml-file: 1.1.0
 
-  '@nakanoaas/tagged-error@1.0.1': {}
+  '@nakanoaas/tagged-error@1.0.2': {}
 
   '@napi-rs/wasm-runtime@0.2.12':
     dependencies:
