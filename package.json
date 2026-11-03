@@ -30,7 +30,9 @@
     "lint": "eslint --max-warnings 0 .",
     "lint:fix": "eslint --fix --max-warnings 0 .",
     "test": "vitest",
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc --noEmit",
+    "verify": "pnpm run check && pnpm exec vitest run",
+    "verify:full": "pnpm run verify && pnpm build"
   },
   "exports": {
     "./auto-id": "./dist/auto-id/index.js",
